@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # === Cloudflared Installation Script ===
-# Made by MahimOp
-# YouTube: https://youtube.com/@mahimxyz
-# Discord: https://discord.gg/EHBvzYbh57
+# Made by PranavGamerz
 # Compatible with Debian/Ubuntu-based systems
 
 set -euo pipefail  # Fail on errors, unset variables, and pipeline failures
@@ -21,10 +19,10 @@ NC="\033[0m" # No Color
 
 # Fancy header
 echo -e "${BLUE}${BOLD}╔══════════════════════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}${BOLD}║          Cloudflared Installation Script                 ║${NC}"
-echo -e "${BLUE}${BOLD}║              Made by MahimOp                             ║${NC}"
-echo -e "${BLUE}${BOLD}║    YouTube: youtube.com/@mahimxyz                        ║${NC}"
-echo -e "${BLUE}${BOLD}║    Discord: discord.gg/EHBvzYbh57                        ║${NC}"
+echo -e "${BLUE}${BOLD}║                  Cloudflared Installation Script                    ║${NC}"
+echo -e "${BLUE}${BOLD}║                       Made by PranavGamerz                          ║${NC}"
+echo -e "${BLUE}${BOLD}║                                                                     ║${NC}"
+echo -e "${BLUE}${BOLD}║                                                                     ║${NC}"
 echo -e "${BLUE}${BOLD}╚══════════════════════════════════════════════════════════╝${NC}"
 echo -e "${MAGENTA}${BOLD}[*] Starting installation process...${NC}\n"
 
@@ -70,7 +68,7 @@ $SUDO apt-get install -y cloudflared
 
 # Verify
 if command -v cloudflared >/dev/null 2>&1; then
-    echo -e "\n${BRIGHT_GREEN}${BOLD}[✓✓✓] cloudflared installed successfully!${NC}"
+    echo -e "\n${BRIGHT_GREEN}${BOLD}[✓] cloudflared installed successfully!${NC}"
     echo -e "${CYAN}    Version:${NC} $(cloudflared --version)"
 else
     echo -e "\n${RED}${BOLD}[✗✗✗] Installation failed – please check the output above.${NC}"

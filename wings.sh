@@ -174,7 +174,7 @@ sudo tee /usr/local/bin/wing > /dev/null <<'EOF'
 #!/bin/bash
 echo -e "\033[0;95m\033[1m
 ╔════════════════════════════════════════════════════╗
-║               ${B_WHITE}WINGS QUICK COMMANDS${PURPLE}                ║
+║               ${B_WHITE}WINGS QUICK COMMANDS${PURPLE}       ║
 ╚════════════════════════════════════════════════════╝
 \033[0m"
 echo

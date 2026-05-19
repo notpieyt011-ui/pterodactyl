@@ -4,15 +4,11 @@
 
 #  PTERODACTYL UNINSTALLER - NEXT GEN ULTRA EDITION
 
-#                     2025 Edition
+#                     2026 Edition
 
 # ===================================================
 
-#  Original Creator: MahimOp
-
-#  YouTube : https://www.youtube.com/@mahimxyz
-
-#  Discord : https://discord.gg/zkDNdPpArS
+#  Original Creator: PranavGamerz
 
 # ===================================================
 
@@ -72,14 +68,11 @@ EOF
 
 echo -e "${DANGER}${BOLD}                ⚡ DANGEROUS UNINSTALLER ⚡${RESET}"
 
-echo -e "${NEON_PURPLE}${BOLD}                NEXT GEN ULTRA EDITION - 2025${RESET}"
+echo -e "${NEON_PURPLE}${BOLD}                NEXT GEN ULTRA EDITION - 2026 ©${RESET}"
 
 echo -e "${GLOW}           Irreversible • Fast • Complete Removal${RESET}"
 
-echo -e "${DIM}      Original Creator: ${BOLD}MahimOp${RESET} ${DIM}| YouTube: @mahimxyz${RESET}"
-
-echo -e "${DIM}      Discord: https://discord.gg/zkDNdPpArS${RESET}"
-
+echo -e "${DIM}      Original Creator: ${BOLD}PranavGamerz${RESET} ${DIM}"
 echo -e "${NEON_BLUE}══════════════════════════════════════════════════════════${RESET}\n"
 
 # Status Functions
@@ -308,11 +301,7 @@ EOF
 
     danger "All actions are IRREVERSIBLE. Data will be permanently deleted!"
 
-    echo -e "\n${NEON_GREEN}${BOLD}Original Credits: MahimOp${RESET}"
-
-    echo -e "${DIM}YouTube: https://www.youtube.com/@mahimxyz${RESET}"
-
-    echo -e "${DIM}Discord: https://discord.gg/zkDNdPpArS${RESET}\n"
+    echo -e "\n${NEON_GREEN}${BOLD}Original Credits: PranavGamerz${RESET}"
 
 }
 

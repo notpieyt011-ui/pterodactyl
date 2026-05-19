@@ -1,11 +1,9 @@
 #!/bin/bash
 # ===================================================
 # PTERODACTYL PANEL INSTALLER - NEXT GEN EDITION
-# Ultra Edition (2025)
+# Ultra Edition (2026)
 # ===================================================
-# Original Creator: MahimOp
-# YouTube : https://www.youtube.com/@mahimxyz
-# Discord : https://discord.gg/zkDNdPpArS
+# Original Creator: PranavGamerz
 # ===================================================
 set -e
 # Color Palette - Next Gen Theme
@@ -40,9 +38,8 @@ cat << "EOF"
                                                             
                                                     
 EOF
-echo -e "${NEON_PURPLE}${BOLD} NEXT GEN ULTRA EDITION - 2025${RESET}"
-echo -e "${DIM} Original Creator: ${BOLD}MahimOp${RESET} ${DIM}| YouTube: @mahimxyz${RESET}"
-echo -e "${DIM} Discord: https://discord.gg/zkDNdPpArS${RESET}"
+echo -e "${NEON_PURPLE}${BOLD} NEXT GEN ULTRA EDITION - 2026${RESET}"
+echo -e "${DIM} Original Creator: ${BOLD}PranavGamerz${RESET} ${DIM}"
 echo -e "${NEON_BLUE}══════════════════════════════════════════════════════════${RESET}\n"
 # Domain Input with Style
 echo -e "${CYAN}${BOLD}▶ Setup Configuration${RESET}"
@@ -252,7 +249,5 @@ echo -e " ${BOLD}Username:${RESET} ${WHITE}${DB_USER}${RESET}"
 echo -e " ${BOLD}Password:${RESET} ${WHITE}${DB_PASS}${RESET}\n"
 warning "For production: Replace self-signed cert with Let's Encrypt (certbot)"
 echo -e "${DIM}Tip: sudo apt install certbot python3-certbot-nginx && sudo certbot --nginx -d ${DOMAIN}${RESET}\n"
-echo -e "${NEON_GREEN}${BOLD}Original Credits: MahimOp${RESET}"
-echo -e "${DIM}YouTube: https://www.youtube.com/@mahimxyz${RESET}"
-echo -e "${DIM}Discord: https://discord.gg/zkDNdPpArS${RESET}\n"
-echo -e "${GLOW}${BOLD}Your Next-Gen Pterodactyl Panel is ready to soar! 🦅🚀${RESET}"
+echo -e "${NEON_GREEN}${BOLD}Original Credits: PranavGamerz${RESET}"
+echo -e "${GLOW}${BOLD}Your Next-Gen Pterodactyl Panel is ready ! 🦅🚀${RESET}"
